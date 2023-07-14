@@ -169,6 +169,7 @@ p {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 12px;
 }
 
@@ -400,8 +401,122 @@ h3 {
 }
 
 .kung img {
-    height: 600px;
+    height: 550px;
     width: 600px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+.sweet {
+    margin: 32px 16px;
+}
+
+.sweet img {
+    height: 500px;
+    width: 600px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+.peking {
+    margin: 32px 16px;
+}
+
+.peking img {
+    height: 500px;
+    width: 700px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+.mapo {
+    margin: 32px 16px;
+}
+
+.mapo img {
+    height: 500px;
+    width: 700px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+.chicken {
+    margin: 32px 16px;
+}
+
+.chicken img {
+    height: 500px;
+    width: 700px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+/* African */
+.header-african {
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(40, 41, 41, 0.7),rgba(40, 41, 41, 0.7)), url(images/african_background.jpg);
+}
+
+.jollof {
+    margin: 32px 16px;
+}
+
+.jollof img {
+    height: 450px;
+    width: 700px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+.swallow {
+    margin: 32px 16px;
+}
+
+.swallow img {
+    height: 450px;
+    width: 700px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+.peppersoup {
+    margin: 32px 16px;
+}
+
+.peppersoup img {
+    height: 500px;
+    width: 700px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+.bole {
+    margin: 32px 16px;
+}
+
+.bole img {
+    height: 500px;
+    width: 700px;
+    display: block;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+.amala {
+    margin: 32px 16px;
+}
+
+.amala img {
+    height: 500px;
+    width: 700px;
     display: block;
     margin-top: 32px;
     border-radius: 5px;

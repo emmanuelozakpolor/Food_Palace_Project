@@ -19,11 +19,11 @@
                 <span class="close-icon" onclick="hideMenu()">&times;</span>
             <ul>
                 <li><a href="#Home">HOME</a></li>
-                <li><a href="#footer">ABOUT</a></li>
                 <li><a href="#foods">FOODS</a></li>
                 <li><a href="#drinksandcreams">DRINKS AND CREAMS</a></li>
                 <li><a href="#restaurants">RESTAURANTS</a></li>
                 <li><a href="#Bookings">CONTACT</a></li>
+                <li><a href="#footer">ABOUT</a></li>
             </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -33,7 +33,6 @@
       <div class="text-box">
         <h1>Food Palace Restaurant</h1>
         <p>Our food varieties are particularly designed to satisfy your taste.<br> Let our fine cuisines embrace your urging desires.</p>
-        <a href=""class="Hero-btn">Are you hungry?</a>
       </div>  
     </section>
 
@@ -50,14 +49,14 @@
                 served chinese meals will make you want more.</p>
             </div>
             <div class="foods-col">
-                <h3>African cuisine</h3>
+                <li><a href="african.html">African cuisine</a></li>
                 <p>We know just how to bring it home with<br>
                 our freshly cooked african dishes just to make<br>
                 you feel good. We love our african meal enjoyers.<br>
                 Click for more</p>
             </div>
              <div class="foods-col">
-                <h3>Western cuisine</h3>
+                <li><a href="western.html">Western cuisine</a></li>
                 <p>All of our western cuisines are particularly<br>
                 prepared to make you feel you're overseas.<br>
                 Our international chefs made sure of that.<br>
@@ -104,24 +103,34 @@
         <p>Our restaurant Locations are easy to access. You're most welcome to check them out.</p>
 
         <div class="row">
+        
             <div class="restaurants-col">
+        <a href="#ikoyi">
                 <img src="images/restaurants.png" alt="">
                 <div class="layer">
                     <h3>Ikoyi</h3>
                 </div>
-            </div>
+            </a>        
+            </div>       
+        
             <div class="restaurants-col">
+                <a href="#victoria-island">
                 <img src="images/VI_restaurants.png" alt="">
                 <div class="layer">
                     <h3>Victoria Island</h3>
                 </div>
+            </a>
             </div>
+
             <div class="restaurants-col">
+                <a href="#lekki">
                 <img src="images/Lekki_restaurants.png" alt="">
                 <div class="layer">
                     <h3>Lekki</h3>
                 </div>
+            </a>
             </div>
+        
         </div>
 
     </section>
@@ -183,10 +192,28 @@
     </section>
 
     <!-- Bookings -->
-
+<section style="background-color: rgb(216, 216, 241); padding: 32px 0;">
     <section id="Bookings">
-        <h1>Book a table today</h1>
+        <h1 style="color: beige; margin-bottom: 16px;">Book a table today</h1>
         <a href="mailto:emmanuelozakpolor@gmail.com" class="Hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- Restaurant Locations-->
+    <section style="margin: 0 32px;">
+        <div class="row">
+            <div id="ikoyi">
+                <h1>IKOYI RESTAURANT</h1>
+                <P>1427 Swiss Country Road, V.I, Ikoyi <br>PMB 30323, Lagos Nigeria</P>
+            </div>
+            <div>
+                <h1>LEKKI RESTAURANT</h1>
+                <p>5067 Ademola Fagbemi Street, Lekki Phase 1 <br>PMB 11784, Lagos Nigeria</p>
+            </div>
+            <div>
+                <h1>V.I RESTAURANT</h1>
+                <p>1245 Bordillone Drive, V.I PMB 63250 <br>Lagos Nigeria</p>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -201,6 +228,7 @@
             <i class="fa fa-instagram"></i>
         </div>
     </section>
+</section>
 
     <!--Javascript for toggle menu-->
     <script>
